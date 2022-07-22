@@ -1,0 +1,31 @@
+{
+    "name": "zamtel-sms",
+    "version": "0.0.5",
+    "description": "A tool for Zamtel bulk SMS API using JavaScript",
+    "type": "module",
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Mathewsmusukuma/zamtel-smsjs.git"
+      },
+      "keywords": [
+        "SMS",
+        "Zamtel",
+        "Bulk SMS"
+      ],
+      "author": "Evan Shortiss",
+      "license": "MIT",
+      "files": [
+        "lib/",
+        "env-var.js",
+        "env-var.d.ts"
+      ],
+      "bugs": {
+        "url": "https://github.com/Mathewsmusukuma/zamtel-smsjs/issues"
+      },
+      "homepage": "https://github.com/Mathewsmusukuma/zamtel-smsjs",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "env-var": "^7.1.1"
+    }
+}
